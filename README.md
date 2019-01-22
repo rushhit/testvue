@@ -1,4 +1,4 @@
-# testvue
+# Vue Js Resource Package
 
 ## Project setup
 ```
