@@ -4,10 +4,6 @@ import VueResource from 'vue-resource';
 import * as VueGoogleMaps from "vue2-google-maps";
 import VueRouter from 'vue-router';
 import store from './store';
-//import axios from 'axios';
-//import VueAxios from 'vue-axios';
- 
-//Vue.use(VueAxios, axios);
 
 import Loading from 'vue-loading-overlay';
 import 'vue-loading-overlay/dist/vue-loading.css';
