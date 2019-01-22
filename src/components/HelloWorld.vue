@@ -94,28 +94,13 @@ export default {
           }
         );
     },
-    /*update(){
-        this.$http.post(this.update_url,
-        {deviceId: this.deviceId,
-        description: this.description},
-        {accessToken: this.accessToken},
-        {headers: { "Content-Type": "application/json" }}
-        )
-        .then(result => {
-            
-        })
-    },*/
+    
     get_id: function(event) {
       this.element = event.target;
       this.description = this.element.getAttribute("data-value-description");
       this.deviceId = this.element.getAttribute("data-value-id");
-      //this.deviceId = this.getAttribute('data-value-id');
-
       console.log(this.deviceId, this.description);
-      //this.click=true;
-      //this.show=true;
-      //alert("tıklandı");
-      // console.log(this.beacon.id);
+   
       var txt;
       var description = prompt("Please change beacon description:", "");
       if (description == null || description == "") {
@@ -146,23 +131,11 @@ export default {
             }
           });
       }
-      //document.getElementById("demo").innerHTML = txt;
+      
     }
   }
 };
-/*const store = new Vuex.Store({
-  state: {
-    todos: [
-      { id: 1, text: "...", done: true },
-      { id: 2, text: "...", done: false }
-    ]
-  },
-  getters: {
-    doneTodos: state => {
-      return state.todos.filter(todo => todo.done);
-    }
-  }
-}); */
+
 
 </script>
 
